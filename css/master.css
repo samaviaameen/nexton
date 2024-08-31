@@ -1,0 +1,515 @@
+/*********************/
+/******* Impact ******/
+/*********************/
+/*
+Author Name: Samavia Ameen
+Author Email: samaviaameen1@gmail.com
+Website URL: https.
+*/
+/*********************/
+/******* Index *******/
+/*********************/
+/*
+1 - Colors
+2 - Bg-colors
+3 - Font-sizes
+4 - Margin
+5 - Padding
+6 - Images
+7 - Border-radius
+8 - Section
+*/
+/*********************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #4d4d4d;
+}
+a {
+	text-decoration: none;
+	color: #fff ;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 10px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #4d4d4d;
+}
+/*****************************/
+/******** Typography *********/
+/*****************************/
+.text-small {
+	font-size: 12px;
+}
+.text-medium {
+	font-size: 18px;
+}
+.text-large {
+	font-size: 22px;
+}
+.text-xlarge {
+	font-size: 26px;
+}
+.text-xxlarge {
+	font-size: 30px;
+}
+.text-larger {
+	font-size: 40px;
+}
+@media (max-width: 768px) {
+	.text-medium {
+		font-size: 16px;
+	}
+	.text-large {
+		font-size: 20px;
+	}
+	.text-xlarge {
+		font-size: 22px;
+	}
+	.text-xxlarge {
+		font-size: 26px;
+	}
+	.text-larger {
+		font-size: 30px;
+	}
+}
+.text-start {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-end {
+	text-align: right;
+}
+.text-lowercase {
+	text-transform: lowercase;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-capitalize {
+	text-transform: capitalize;
+}
+/*****************************/
+/*********** colors **********/
+/*****************************/
+.text-white {
+	color: #eee !important;
+}
+.text-black {
+	color: #000 !important;
+}
+.text-info {
+	color: #3c076d !important;
+}
+.text-success {
+	color: #4caf4f !important;
+}
+.text-grey {
+	color: #4d4d4d !important;
+}
+/*****************************/
+/******** bg-colors **********/
+/*****************************/
+.bg-white {
+	background-color: #fff !important;
+}
+.bg-black {
+	background-color: #263238 !important;
+}
+.bg-info {
+	background-color: #087be8 !important;
+}
+.bg-primary {
+	background-color: #4caf4f !important;
+}
+.bg-grey {
+	background-color: #f5f7fa!important;
+}
+/*****************************/
+/********* Margin ************/
+/*****************************/
+.m-0 {
+	margin: 0;
+}
+.m-5 {
+	margin: 5px;
+}
+.m-10 {
+	margin: 10px;
+}
+.m-15 {
+	margin: 15px;
+}
+.m-20 {
+	margin: 20px;
+}
+.mt-0 {
+	margin-top: 0;
+}
+.mt-5 {
+	margin-top: 5px;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mt-15 {
+	margin-top: 15px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.me-0 {
+	margin-right: 0;
+}
+.me-5 {
+	margin-right: 5px;
+}
+.me-10 {
+	margin-right: 10px;
+}
+.me-15 {
+	margin-right: 15px;
+}
+.me-20 {
+	margin-right: 20px;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.mb-5 {
+	margin-bottom: 5px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.ms-0 {
+	margin-left: 0;
+}
+.ms-5 {
+	margin-left: 5px;
+}
+.ms-10 {
+	margin-left: 10px;
+}
+.ms-15 {
+	margin-left: 15px;
+}
+.ms-20 {
+	margin-left: 20px;
+}
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.ms-auto {
+	margin-left: auto;
+}
+.me-auto {
+	margin-right: auto;
+}
+/*****************************/
+/********* Padding ************/
+/*****************************/
+.p-0 {
+	padding: 0;
+}
+.p-5 {
+	padding: 5px;
+}
+.p-10 {
+	padding: 10px;
+}
+.p-15 {
+	padding: 15px;
+}
+.p-20 {
+	padding: 20px;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pt-5 {
+	padding-top: 5px;
+}
+.pt-10 {
+	padding-top: 10px;
+}
+.pt-15 {
+	padding-top: 15px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pe-0 {
+	padding-right: 0 !important;
+}
+.pe-5 {
+	padding-right: 5px;
+}
+.pe-10 {
+	padding-right: 10px;
+}
+.pe-15 {
+	padding-right: 15px;
+}
+.pe-20 {
+	padding-right: 20px;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+.pb-5 {
+	padding-bottom: 5px;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.pb-15 {
+	padding-bottom: 15px;
+}
+.pb-20 {
+	padding-bottom: 20px;
+}
+.ps-0 {
+	padding-left: 0;
+}
+.ps-5 {
+	padding-left: 5px;
+}
+.ps-10 {
+	padding-left: 10px;
+}
+.ps-15 {
+	padding-left: 15px;
+}
+.ps-20 {
+	padding-left: 20px;
+}
+.px-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+.px-5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.px-10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.px-20 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pY-0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.pY-5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.pY-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.pY-20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*****************************/
+/********* Images ************/
+/*****************************/
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+.img-rounded {
+	border-radius: 5px;
+}
+.img-thumbnail {
+	border: 1px solid #eee;
+	padding: 2px;
+}
+/*****************************/
+/********* Border ************/
+/*****************************/
+.rounded-1 {
+	border-radius: 1px;
+}
+.rounded-2 {
+	border-radius: 2px;
+}
+.rounded-3 {
+	border-radius: 3px;
+}
+.rounded-4 {
+	border-radius: 4px;
+}
+.rounded-circle {
+	border-radius: 50%;
+}
+/*****************************/
+/******* Width Classes *******/
+/*****************************/
+.w-25 {
+	width: 25% !important;
+}
+.w-50 {
+	width: 50% !important;
+}
+.w-75 {
+	width: 75% !important;
+}
+.w-100 {
+	width: 100% !important;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.34%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+/*****************************/
+/****** Button Classes ******/
+/*****************************/
+.btn{
+	text-align: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 500;
+    transition: all 0.4s ease-out;
+    text-transform: capitalize;
+}
+.btn-success{
+	background-color: #4caf4f;
+    color: #fff !important;
+}
+.btn-success:hover{
+	background-color: transparent;
+    box-shadow: 14px 8px 20px rgba(0, 0, 0, 0.15);
+    color: #4caf4f !important;
+}
+/*****************************/
+/****** Display Classes ******/
+/*****************************/
+.d-block {
+	display: block;
+}
+.d-inline {
+	display: inline;
+}
+.d-flex,
+.row {
+	display: flex;
+}
+.jc-start {
+	justify-content: start;
+}
+.jc-center {
+	justify-content: center;
+}
+.jc-end {
+	justify-content: end;
+}
+.jc-space-between {
+	justify-content: space-between;
+}
+.jc-space-around {
+	justify-content: space-around;
+}
+.jc-space-evenly {
+	justify-content: space-evenly;
+}
+.ai-start {
+	align-items: start;
+}
+.ai-center {
+	align-items: center;
+}
+.ai-end {
+	align-items: end;
+}
+/*****************************/
+/****** Common Classes *******/
+/*****************************/
+section {
+	padding: 50px 0;
+}
+.list-unstyled {
+	list-style-type: none;
+}
+.list-inline {
+	display: inline;
+}
+.container-fluid {
+	max-width: 100%;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.courses .course {
+	max-width: 300px;
+}
+/*****************************/
+/****** text align *******/
+/*****************************/
+.t-c{
+	text-align: center;
+}

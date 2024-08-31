@@ -1,0 +1,115 @@
+/*****************************/
+/********** header ***********/
+/*****************************/
+header nav .logo img{
+    width: 200px;
+}
+header nav ul.navigation li{
+    padding: 20px;
+}
+header nav ul.navigation li a{
+    color: #4d4d4d;
+}
+/*****************************/
+/********** main ***********/
+/*****************************/
+main .marketing p{
+    width: 37%;
+}
+main .heading img{
+    width: 35%;
+    height: auto;
+}
+main a{
+    color: #186aa4;
+}
+.pixelgrade .row .col-6 img{
+    border-radius: 16px;
+    max-width: 324px;
+    margin-left: auto;
+    display: block;
+}
+.entire_community i{
+    position: relative;
+}
+.entire_community .manage-community .NationalAsociations div{
+    position: absolute;
+    background-color: #e8f5e9;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+    z-index: -1;
+}
+main .tim_smith .container .row img{
+    max-width: 324px;
+    margin-right: auto;
+    display: block;
+}
+main .new_marketing .heading{
+    position: relative;
+}
+.new_marketing .row .col-3 img{
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    bottom: -30px;
+    width: 20%;
+    left: 5%
+}
+.new_marketing .row .col-3 .detail{
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    bottom: -30px;
+    width: 20%;
+    left: 5%
+}
+/*****************************/
+/********** footer ***********/
+/*****************************/
+footer{
+    padding: 50px;
+}
+footer a{
+    color: #fff !important;
+}
+footer .logo img{
+    width: 200px;
+}
+footer .social ul li a{
+    margin: 0 10px;
+}
+footer .links ul li a{
+    margin: 0 0 10px 0;
+}
+/* media query */
+@media (max-width: 767px) {
+}
+/*****************************/
+/****** Courses Classes ******/
+/*****************************/
+/* media query */
+@media (max-width: 767px) {
+}
+/*****************************/
+/****** Courses Classes ******/
+/*****************************/
+/* media query */
+@media (max-width: 767px) {
+}
+/*****************************/
+/****** Courses Classes ******/
+/*****************************/
+/* media query */
+@media (max-width: 767px) {
+}
+/*****************************/
+/****** Courses Classes ******/
+/*****************************/
+/* media query */
+@media (max-width: 767px) {
+}
